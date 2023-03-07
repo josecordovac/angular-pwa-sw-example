@@ -1,0 +1,12 @@
+---
+applications:
+ - name: ng-mimovistar-appconvergente-dev
+   routes:
+   - route: ng-mimovistar-appconvergente-dev.mybluemix.net
+   memory: 256MB
+   disk_quota: 2GB
+   instances: 1
+   buildpacks: 
+    - sdk-for-nodejs
+   health-check-type: process
+   path: .
